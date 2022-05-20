@@ -2,7 +2,7 @@ const redirects = {
   "promote-builds-qa": [
     {
       from: "/api/*",
-      to: "https://promote-builds-api.netlify.app/.netlify/functions/api/:splat",
+      to: "https://test--promote-builds-api.netlify.app/.netlify/functions/api/:splat",
       status: 200,
       force: true,
     },
